@@ -19,7 +19,6 @@ import FooterBottom from './components/FooterBottom';
 function App() {
   return (
     <div className="min-h-screen bg-white">
-      <Header />
       <Hero />
       <Services />
       <CombinedSection />
@@ -33,8 +32,7 @@ function App() {
       <CTA />
       <Contact />
       <FAQ />
-      <Footer />
-      <FooterBottom />
+
     </div>
   );
 }
